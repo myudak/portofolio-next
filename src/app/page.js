@@ -132,7 +132,7 @@ const Home = () => {
           Bio
         </Heading>
         {pageData.pageDataBio.map((data, _) => (
-          <Box pl={"3.4em"} textIndent={"-3.4em"}>
+          <Box key={_} pl={"3.4em"} textIndent={"-3.4em"}>
             <Text as={"span"} fontWeight={"bold"} mr={"1em"}>
               {data.year}
             </Text>
