@@ -148,7 +148,7 @@ const Home = () => {
         </Heading>
         <SimpleGrid columns={2}>
           {pageData.pageDataLink.map((data, _) => (
-            <Link href={data.link} target="_blank">
+            <Link key={_} href={data.link} target="_blank">
               <Button variant="ghost" colorScheme="teal" leftIcon={data.icon}>
                 {data.title}
               </Button>
