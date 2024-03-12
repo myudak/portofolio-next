@@ -9,7 +9,7 @@ const image = () => {
       <Heading as="h3" variant="section-title">
         My Images
       </Heading>
-      <Box m={0} h="100vh" w="100%">
+      <Box m={0} h={100 * cards.length + "px"} w="full">
         <LayoutGrid cards={cards} />
       </Box>
     </Container>
