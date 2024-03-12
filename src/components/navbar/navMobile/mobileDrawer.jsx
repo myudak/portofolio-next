@@ -12,6 +12,11 @@ import { IoMdMenu } from "react-icons/io";
 import { Link } from "@chakra-ui/next-js";
 
 import data from "../navLink/LinkNavbar.data";
+data.unshift({
+  title: "Homepage",
+  path: "/",
+  regex: "^\\/$",
+});
 
 export default function MobileDrawer() {
   return (
