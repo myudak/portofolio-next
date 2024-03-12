@@ -12,11 +12,15 @@ import { IoMdMenu } from "react-icons/io";
 import { Link } from "@chakra-ui/next-js";
 
 import data from "../navLink/LinkNavbar.data";
-data.unshift({
-  title: "Homepage",
-  path: "/",
-  regex: "^\\/$",
-});
+
+const databaru = [
+  {
+    title: "Homepage",
+    path: "/",
+    regex: "^\\/$",
+  },
+  ...data,
+];
 
 export default function MobileDrawer() {
   return (
@@ -27,7 +31,7 @@ export default function MobileDrawer() {
         </MenuButton>
         <MenuList>
           <VStack alignItems="left">
-            {data.map((item, i) => (
+            {databaru.map((item, i) => (
               <Link href={item.path} key={i}>
                 <MenuItem>{item.title}</MenuItem>
               </Link>
