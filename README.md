@@ -3,7 +3,8 @@
 Hello, welcome. This is my portfolio site!, or digital garden, or whatever. It's built with [Next js](https://nextjs.org/), and uses [Sanity IO](https://sanity.io) to edit the blog!
 
 ## See the site
-![3ddaeced-04c0-49a7-a3d3-82b1796864c4](https://github.com/myudak/portofolio-next/assets/69108782/903ddd69-8388-4d2b-9510-59d6d747f7e4)
+
+[![Thumbnail myudak site](https://github.com/myudak/portofolio-next/assets/69108782/903ddd69-8388-4d2b-9510-59d6d747f7e4)](https://myudak.site)
 [https://myudak.site](https://myudak.site)
 
 ## Stack
@@ -19,26 +20,26 @@ Hello, welcome. This is my portfolio site!, or digital garden, or whatever. It's
 $PROJECT_ROOT
 ├───public
 ├───src
-    ├───app
-    │   # Page files
-    │   ├───images
-    │   ├───posts
-    │   ├───works
-    ├───components
-    |   # React component files
-    │   ├───card
-    │   ├───footer
-    │   ├───navbar
-    │   │   ├───navLink
-    │   │   └───navMobile
-    │   ├───pagination
-    │   ├───section
-    │   ├───splashScreen
-    │   ├───themeSwitcher
-    │   └───ui
-    ├───lib
-    |   # Non-react modules
-    └───utils
+│   ├───app
+│   │   # Page files
+│   │   ├───images
+│   │   ├───posts
+│   │   ├───works
+│   ├───components
+│   |   # React component files
+│   │   ├───card
+│   │   ├───footer
+│   │   ├───navbar
+│   │   │   ├───navLink
+│   │   │   └───navMobile
+│   │   ├───pagination
+│   │   ├───section
+│   │   ├───splashScreen
+│   │   ├───themeSwitcher
+│   │   └───ui
+│   ├───lib
+│   |   # Non-react modules
+│   └───utils
         # Utility functions and helper modules
 ```
 
