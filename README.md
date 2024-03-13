@@ -1,5 +1,8 @@
 # myudakk portfolio site
 
+![Vercel Deploy](https://therealsujitk-vercel-badge.vercel.app/?app=myudak)
+![License](https://img.shields.io/badge/license-MIT-blue)
+
 Hello, welcome. This is my portfolio site!, or digital garden, or whatever. It's built with [Next js](https://nextjs.org/), and uses [Sanity IO](https://sanity.io) to edit the blog!
 
 ## See the site
