@@ -4,8 +4,6 @@ import { LayoutGrid } from "@/components/ui/layout-grid";
 import { Container, Heading, Box } from "@chakra-ui/react";
 import cardsData from "./page.data";
 
-import image_allymotion from "@/../public/allymotion.png";
-
 const image = () => {
   return (
     <Container>
@@ -26,18 +24,6 @@ const SkeletonCard = ({ Heading, Texts }) => {
       <p className="font-normal text-base text-white"></p>
       <p className="font-normal text-base my-4 max-w-lg text-neutral-200">
         {Texts}
-      </p>
-    </div>
-  );
-};
-const SkeletonOne = () => {
-  return (
-    <div>
-      <p className="font-bold text-4xl text-white">House in the woods</p>
-      <p className="font-normal text-base text-white"></p>
-      <p className="font-normal text-base my-4 max-w-lg text-neutral-200">
-        A serene and tranquil retreat, this house in the woods offers a peaceful
-        escape from the hustle and bustle of city life.
       </p>
     </div>
   );
@@ -68,7 +54,4 @@ const cardsNew = cardsData.map((data, i) => {
     thumbnail: data.Thumbnail,
   };
 });
-
-// console.log(cardsNew);
-
 export default image;
