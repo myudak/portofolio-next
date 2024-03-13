@@ -1,9 +1,9 @@
 # myudakk portfolio site
 
-Hello, welcome. This is my portfolio site!, or digital garden, or whatever. It's built with [Next js](https://astro.build), and uses [Sanity IO](https://tina.io) to edit the blog!
+Hello, welcome. This is my portfolio site!, or digital garden, or whatever. It's built with [Next js](https://nextjs.org/), and uses [Sanity IO](https://sanity.io) to edit the blog!
 
 ## See the site
-
+![3ddaeced-04c0-49a7-a3d3-82b1796864c4](https://github.com/myudak/portofolio-next/assets/69108782/903ddd69-8388-4d2b-9510-59d6d747f7e4)
 [https://myudak.site](https://myudak.site)
 
 ## Stack
